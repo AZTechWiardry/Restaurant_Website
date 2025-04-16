@@ -1,0 +1,115 @@
+body {
+    font-family: 'Winky Rough', cursive;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }  
+
+ {
+    background-color: #f8c502; /* Yellow background */
+    color: white; /* White text */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+ 
+/* Highlight the dish names */
+.card-title {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+ 
+/* Global heading styles with Merriweather */
+h3, h4 {
+    font-weight: 700; /* Bold weight for headings */
+    color: #2c3e50; /* Dark gray for headings */
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 1px; /* Slight letter spacing for sophistication */
+}
+  
+/* Section-specific background and style */
+#about h3, #menu h3, #contact h3 {
+    background-color: #16a085; /* Turquoise color for section headings */
+    color: white; /* White text for contrast */
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 2rem; /* Larger font size for section titles */
+    font-weight: 700; /* Bold for emphasis */
+    letter-spacing: 1px; /* Slight letter spacing for modern style */
+}
+  
+/* Dish names (Card Titles) with Merriweather */
+.card-title {
+    font-weight: 600; /* Medium weight for dish names */
+    font-size: 1.4rem; /* Slightly larger font size */
+    text-transform: capitalize; /* Capitalize dish names */
+    margin-bottom: 12px;
+}
+  
+/* Price Styling */
+.price {
+    font-weight: 600; /* Bold for prices */
+    font-size: 1.2rem; /* Larger font size for prices */
+    color: #f39c12; /* Orange color for prices */
+    text-align: center;
+    margin-top: 8px;
+}
+  
+/* Card Descriptions (Text under dish names) with Lato */
+.card-text {
+    font-weight: 400; /* Regular weight for descriptions */
+    font-size: 1rem; /* Standard font size */
+    color: #7f8c8d; /* Light gray for descriptions */
+    margin-bottom: 18px;
+}
+  
+/* Adding a hover effect on menu cards */
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for cards */
+    transform: translateY(-5px); /* Slight movement on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+  
+.brand-name {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Rounded corners for images */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for images */
+}
+
+.logo-img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .logo-img:hover {
+    transform: scale(1.5); /* Increased to 150% */
+  }
+  
+  .btn:hover {
+    box-shadow: 0 0 10px #28a745;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #ffd700 !important;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    transition: 0.3s;
+  }
+  
